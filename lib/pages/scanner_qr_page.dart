@@ -83,7 +83,7 @@ class _ScannerQRPageState extends State<ScannerQRPage> {
       body: Column(
         children: [
           Expanded(
-            flex: 4,
+            flex: 3,
             child: _buildQrView(context),
           ),
           Expanded(
@@ -134,7 +134,7 @@ class _ScannerQRPageState extends State<ScannerQRPage> {
                           context,
                           MaterialPageRoute(
                             builder: (context) => RegisterPage(
-                              //url: _dataUrl,
+                              //url: _dataUrl;
                               url: "https://carnetvacunacion.minsa.gob.pe/#publico/certificado/index?Tk=v3-J4cMCIPqW7QWLX5wFJPZiZTc637whHDP5NcoPhJXKxU=",
                             ),
                           ),

@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: "VaccineStore App",
+      title: "Vaccine Storage App",
       theme: ThemeData(
         textTheme: GoogleFonts.manropeTextTheme(),
 

@@ -16,7 +16,7 @@ class IntroPage extends StatelessWidget {
             const Text(
               "Tu carnet de vacunación",
               style: TextStyle(
-                  fontSize: 46.0,
+                  fontSize: 40.0,
                   height: 1,
                   fontWeight: FontWeight.w800,
                   color: Color(0xff2A2B30)),
@@ -37,23 +37,25 @@ class IntroPage extends StatelessWidget {
             ),
             SizedBox(
               width: double.infinity,
-              height: 50,
+              height: 52.0,
               child: ElevatedButton(
                 style: ElevatedButton.styleFrom(
-                  primary: Colors.green,
+                  primary: kBrandPrimaryColor,
+                  // primary: Color(0xff04CD8B),
                   shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(12)
-                  )
+                    borderRadius: BorderRadius.circular(14.0),
+                  ),
                 ),
-                onPressed:(){
-                  Navigator.push(context, MaterialPageRoute(builder: (context)=>HomePage()));
-                 // Navigator.push(context, route)
+                onPressed: () {
+                  Navigator.push(context, MaterialPageRoute(builder: (context)=> HomePage()));
                 },
-                child: Text("Iniciar ahora",
-                style: TextStyle(
-                  fontSize: 16,
-                  fontWeight: FontWeight.w700
-                ),),
+                child: const Text(
+                  "Iniciar ahora",
+                  style: TextStyle(
+                    fontSize: 16.0,
+                    fontWeight: FontWeight.w700,
+                  ),
+                ),
               ),
             ),
           ],

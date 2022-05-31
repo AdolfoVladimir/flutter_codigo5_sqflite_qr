@@ -5,7 +5,7 @@ import 'package:flutter_codigo5_sqflite_qr/pages/scanner_qr_page.dart';
 import 'package:flutter_codigo5_sqflite_qr/ui/general/colors.dart';
 import 'package:flutter_codigo5_sqflite_qr/ui/widgets/item_list_widget.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-
+import 'package:qr_code_scanner/qr_code_scanner.dart';
 import 'package:qr_flutter/qr_flutter.dart';
 import 'package:url_launcher/url_launcher.dart';
 
